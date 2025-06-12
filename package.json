@@ -19,5 +19,9 @@
   },
   "dependencies": {
     "edge-js": "^24.0.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgattinger/nodeS7CommPlus.git"
   }
 }
