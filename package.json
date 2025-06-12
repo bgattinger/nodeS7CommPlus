@@ -5,8 +5,7 @@
   "files": [
     "nodeS7CommPlus.js",
     "ns7cpLib/",
-    "S7CommPlusWrapper/",
-    "README.md"
+    "S7CommPlusWrapper/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
