@@ -1,0 +1,22 @@
+{
+  "name": "nodes7commplus",
+  "version": "1.2.4",
+  "main": "nodeS7CommPlus.js",
+  "files": [
+    "nodeS7CommPlus.js",
+    "ns7cpLib/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Brett Gattinger",
+  "license": "MIT",
+  "description": "NodeS7CommPlus is an API that allows javascript applications to use the S7CommPlusDriver (written in c#) via edge-js and communicate with Siemens S7-1200/1500 controllers",
+  "devDependencies": {
+    "eslint": "^9.21.0"
+  },
+  "dependencies": {
+    "edge-js": "^24.0.3"
+  }
+}
