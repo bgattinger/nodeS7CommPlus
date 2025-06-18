@@ -78,6 +78,9 @@ if (!hasSubdirectory(edgeJsNativePath, nodeVersion)) {
     );
 }
 edgeJsNativePath = path.join(edgeJsNativePath, nodeVersion, 'edge_coreclr.node');
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// set environemnt variables
 process.env.EDGE_NATIVE = edgeJsNativePath;
 process.env.EDGE_APP_ROOT = edgeJsLibPath;
 process.env.S7COMMPLUS = s7commplusLibPath;
