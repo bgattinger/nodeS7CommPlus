@@ -1,7 +1,7 @@
 # NodeS7CommPlus
 NodeS7CommPlus is an API that allows javascript applications to use the S7CommPlusDriver (written in c#) via edge-js and communicate with Siemens S7-1200/1500 controllers
 
-# (NOTE: Parts of this documenatation are still under development)
+# (NOTE: This module is currently undergoing maintenance and debugging and parts of its documentations are still under development)
 
 ## Authors
 The NodeS7CommPlus API was developed by Brett Gattinger
