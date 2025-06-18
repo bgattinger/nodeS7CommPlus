@@ -1,12 +1,13 @@
 {
   "name": "nodes7commplus",
-  "version": "1.2.13",
+  "version": "1.2.14",
   "main": "nodeS7CommPlus.js",
   "files": [
     "nodeS7CommPlus.js",
     "ns7cpLib/",
     "S7CommPlusWrapper/",
-    "S7CommPlusDriver/"
+    "S7CommPlusDriver/",
+    "Zlib.net/"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
