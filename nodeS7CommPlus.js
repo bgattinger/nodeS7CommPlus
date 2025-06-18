@@ -114,7 +114,6 @@ function copyDirectorySync(sourceDir, targetDir) {
         if (entry.isDirectory()) {
             copyDirectorySync(sourcePath, targetPath);
         } else {
-            log(LOG_MESSAGE_TYPE.INFO,`copying file ${sourcePath} to ${targetPath}`);
             const data = fs.readFileSync(sourcePath);
             fs.writeFileSync(targetPath, data);
         }

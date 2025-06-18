@@ -1,6 +1,6 @@
 {
   "name": "nodes7commplus",
-  "version": "1.2.14",
+  "version": "1.2.15",
   "main": "nodeS7CommPlus.js",
   "files": [
     "nodeS7CommPlus.js",
